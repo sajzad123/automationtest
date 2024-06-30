@@ -37,6 +37,7 @@ public class Dropdown {
 		elementPerPage.selectByIndex(2);
 		Select countryselect=new Select(home.country);
 		countryselect.selectByVisibleText("India");
+		driver.close();
 		driver.quit();
 	
 	    		
